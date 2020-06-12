@@ -1,3 +1,6 @@
+;; Another version of the following function can be found here:
+;; https://emacs.stackexchange.com/questions/32316/structure-preserving-copying-of-sequences
+
 (defun copy-tree-new (tree)
   "Make a copy of TREE.
 If TREE is a cons cell, this recursively copies both its car and its cdr.
