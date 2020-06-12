@@ -41,6 +41,7 @@ chain of cons cells."
 
 (iter-next kk)
 
+;; normal copy-tree is unable to make a copy of the iterator object
 (setq kk-copy1 (copy-tree-new kk))
 
 (setq kk-copy2 (copy-tree-new kk))
